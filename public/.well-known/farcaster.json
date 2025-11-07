@@ -1,11 +1,11 @@
 {
   "accountAssociation": {
-    "header": "eyJmaWQiOjkzNTY2MSwidHlwZSI6ImF1dGgiLCJrZXkiOiIweDRmOUIwOUQ3RjE4MGYzNGZkQzFBYWRjYzkxRmZFOTFERkYxQ0Q0MjYifQ",
-    "payload": "eyJkb21haW4iOiJiYXNlLW1pbmktYXBwLWFzaHktbnUudmVyY2VsLmFwcCJ9",
-    "signature": "KU4DuTumoODVmInksvEMkm1kNkZBJqInaLw3dKkMm4t+Ks823/TVUW2VYVt5bgsYH1i+esS4z5luJA5hnm4Gqxw="
+    "header": "",
+    "payload": "",
+    "signature": ""
   },
   "baseBuilder": {
-    "ownerAddress": "0x0EC8f455AFBE870092B0e65165FffFeE8c29C688"
+    "ownerAddress": "0x"
   },
   "miniapp": {
     "version": "1",
@@ -25,7 +25,7 @@
     "primaryCategory": "games",
     "tags": ["game", "casual", "burger", "tap", "miniapp"],
     "heroImageUrl": "https://base-mini-app-ashy-nu.vercel.app/hero.png",
-    "tagline": "Flip burgers. Score points. Beat your best!",
+    "tagline": "Flip burgers. Beat your best!",
     "ogTitle": "Burger Flip - Play on Base",
     "ogDescription": "A fast-paced burger flipping game built on Base. Tap burgers before they burn!",
     "ogImageUrl": "https://base-mini-app-ashy-nu.vercel.app/og-image.png",
