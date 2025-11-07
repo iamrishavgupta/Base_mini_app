@@ -18,25 +18,25 @@ return Response.json({
   "miniapp": {
     "version": "1",
     "name": "Burger Flip",
-    "homeUrl": "https://burgerflip-rishav.vercel.app",
-    "iconUrl": "https://burgerflip-rishav.vercel.app/burger-icon.png",
-    "splashImageUrl": "https://burgerflip-rishav.vercel.app/splash.png",
+    "homeUrl": "https://base-mini-app-ashy-nu.vercel.app/",
+    "iconUrl": "https://base-mini-app-ashy-nu.vercel.app//burger.png",
+    "splashImageUrl": "https://base-mini-app-ashy-nu.vercel.app//burger.png",
     "splashBackgroundColor": "#FFA500",
-    "webhookUrl": "https://burgerflip-rishav.vercel.app/api/webhook",
+    "webhookUrl": "https://base-mini-app-ashy-nu.vercel.app/api/webhook",
     "subtitle": "Tap burgers before they burn!",
     "description": "A fun and fast-paced game where you tap burgers before they burn. Challenge yourself with increasing difficulty!",
     "screenshotUrls": [
-      "https://burgerflip-rishav.vercel.app/screenshot1.png",
-      "https://burgerflip-rishav.vercel.app/screenshot2.png",
-      "https://burgerflip-rishav.vercel.app/screenshot3.png"
+      "https://base-mini-app-ashy-nu.vercel.app/screenshot1.png",
+      "https://base-mini-app-ashy-nu.vercel.app/screenshot2.png",
+      "https://base-mini-app-ashy-nu.vercel.app/screenshot3.png"
     ],
     "primaryCategory": "games",
     "tags": ["game", "casual", "burger", "tap", "miniapp"],
-    "heroImageUrl": "https://burgerflip-rishav.vercel.app/hero.png",
+    "heroImageUrl": "https://base-mini-app-ashy-nu.vercel.app/hero.png",
     "tagline": "Flip burgers. Score points. Beat your best!",
     "ogTitle": "Burger Flip - Play on Base",
     "ogDescription": "A fast-paced burger flipping game built on Base. Tap burgers before they burn!",
-    "ogImageUrl": "https://burgerflip-rishav.vercel.app/og-image.png",
+    "ogImageUrl": "https://base-mini-app-ashy-nu.vercel.app/og-image.png",
     "noindex": false
   }
 }

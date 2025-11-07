@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Burger Flip - Play on Base",
     description: "A fun and fast-paced game where you tap burgers before they burn!",
-    images: ["https://your-domain.com/og-image.png"], // ← UPDATE THIS
+    images: ["https://base-mini-app-ashy-nu.vercel.app/"], // ← UPDATE THIS
   },
 };
 
@@ -36,13 +36,13 @@ export default function RootLayout({
           name="fc:miniapp"
           content={JSON.stringify({
             version: "next",
-            imageUrl: "https://your-domain.com/embed-image.png", // ← UPDATE THIS
+            imageUrl: "https://base-mini-app-ashy-nu.vercel.app/burger.png", // ← UPDATE THIS
             button: {
               title: "Play Now",
               action: {
                 type: "launch_miniapp",
                 name: "Burger Flip",
-                url: "https://your-domain.com", // ← UPDATE THIS
+                url: "https://base-mini-app-ashy-nu.vercel.app/", // ← UPDATE THIS
               },
             },
           })}
