@@ -1,12 +1,4 @@
-function withValidProperties(properties: Record<string, undefined | string | string[]>) {
-return Object.fromEntries(
-    Object.entries(properties).filter(([_, value]) => (Array.isArray(value) ? value.length > 0 : !!value))
-);
-}
-
-export async function GET() {
-const URL = process.env.NEXT_PUBLIC_URL as string;
-return Response.json({
+{
   "accountAssociation": {
     "header": "",
     "payload": "",
@@ -18,9 +10,9 @@ return Response.json({
   "miniapp": {
     "version": "1",
     "name": "Burger Flip",
-    "homeUrl": "https://base-mini-app-ashy-nu.vercel.app/",
-    "iconUrl": "https://base-mini-app-ashy-nu.vercel.app//burger.png",
-    "splashImageUrl": "https://base-mini-app-ashy-nu.vercel.app//burger.png",
+    "homeUrl": "https://base-mini-app-ashy-nu.vercel.app",
+    "iconUrl": "https://base-mini-app-ashy-nu.vercel.app/burger.png",
+    "splashImageUrl": "https://base-mini-app-ashy-nu.vercel.app/burger.png",
     "splashBackgroundColor": "#FFA500",
     "webhookUrl": "https://base-mini-app-ashy-nu.vercel.app/api/webhook",
     "subtitle": "Tap burgers before they burn!",
@@ -39,6 +31,4 @@ return Response.json({
     "ogImageUrl": "https://base-mini-app-ashy-nu.vercel.app/og-image.png",
     "noindex": false
   }
-}
-); // see the next step for the manifest_json_object
 }
